@@ -1,0 +1,17 @@
+.button {
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        width: 56px;
+        height: 56px;
+        border: none;
+
+        .icon {
+            color: var(--grey_6);
+            font-size: 2rem;
+        }
+    }
+}

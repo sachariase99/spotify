@@ -1,0 +1,19 @@
+.button {
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #181414;
+        border-radius: 50px;
+        width: 56px;
+        height: 56px;
+        border: none;
+
+        .icon {
+            color: var(--grey_6);
+            background-color: #181414;
+            font-size: 1.6rem;
+        }
+    }
+}

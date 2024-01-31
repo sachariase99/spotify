@@ -1,0 +1,24 @@
+.button {
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 35px 10px 20px;
+    }
+
+    button {
+        padding: 15.54px 40px;
+        border: 1px solid #D9D9D9;
+        border-radius: 50px;
+        color: #D9D9D9;
+        font-size: 18px;
+        font-weight: 700;
+
+        &:hover {
+            border: 1px solid #BBB;
+            color: #BBB;
+            cursor: pointer;
+        }
+    }
+}
