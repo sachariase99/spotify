@@ -1,0 +1,22 @@
+.leftmenu {
+    position: relative;
+    height: 100vh;
+    width: 320px;
+    background-color: #090707;
+    border-radius: 0 16px 16px 0;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        li {
+            list-style: none;
+
+            .link {
+                color: var(--grey_6);
+                text-decoration: none;
+            }
+        }
+    }
+}

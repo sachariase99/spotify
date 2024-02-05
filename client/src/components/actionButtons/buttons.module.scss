@@ -12,6 +12,10 @@
         .icon {
             color: var(--grey_6);
             font-size: 2rem;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }

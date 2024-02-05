@@ -1,19 +1,13 @@
 import './styles/App.scss'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { StartSession, Signup, About, BackButton, ForwardButton, Pause, Microphone } from './components'
+import { Leftmenu } from './components'
 
 function App() {
 
     return (
       <>
         <Router>
-          <StartSession />
-          <Signup />
-          <About />
-          <BackButton />
-          <ForwardButton />
-          <Pause />
-          <Microphone />
+          <Leftmenu />
         </Router>
       </>
     )
