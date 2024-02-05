@@ -6,17 +6,60 @@
     border-radius: 0 16px 16px 0;
 
     ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 20px 0 0 20px;
 
         li {
             list-style: none;
+            display: flex;
+            align-items: center;
+
 
             .link {
                 color: var(--grey_6);
                 text-decoration: none;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 10px 0;
+
+                &:hover {
+                    color: var(--white);
+                }
+
+                .icon {
+                    font-size: 20px;
+                    margin: 0 20px 0 0;
+                }
             }
+        }
+    }
+
+    span {
+        display: block;
+        height: 1px;
+        width: 280px;
+        background-color: var(--grey_6);
+        opacity: 0.5;
+        margin: 20px 20px;
+    }
+
+    .playlist {
+        margin: 0 20px;
+        max-height: 350px;
+        overflow-y: auto;
+        p {
+            color: var(--grey_6);
+            margin: 20px 0;
+        }
+    }
+
+    .image {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+
+        img {
+            width: 100%;
+            border-radius: 20px;
         }
     }
 }
